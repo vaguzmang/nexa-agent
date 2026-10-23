@@ -7,3 +7,6 @@ chat_grok_v2.py
 
 # Local audit packages
 NEXA_S1V11_AUDIT.zip
+
+# NEXA S2 local persistence
+data/*.db*
