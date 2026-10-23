@@ -2,3 +2,8 @@
 .venv/
 __pycache__/
 *.pyc
+# Local Grok audit UI
+chat_grok_v2.py
+
+# Local audit packages
+NEXA_S1V11_AUDIT.zip
