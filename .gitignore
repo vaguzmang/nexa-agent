@@ -10,3 +10,7 @@ NEXA_S1V11_AUDIT.zip
 
 # NEXA S2 local persistence
 data/*.db*
+
+# Local S2 validation scripts
+s2_failure_demo.py
+s2_tool_call_probe.py
