@@ -1,0 +1,402 @@
+{
+  "valid_benchmark": {
+    "tasks": 49,
+    "reported_tokens": {
+      "count": 49,
+      "avg": 7454.27,
+      "median": 6667,
+      "p95": 11154.4
+    },
+    "visible_tokens": {
+      "count": 49,
+      "avg": 5564.43,
+      "median": 5182,
+      "p95": 7439.4
+    },
+    "latency_ms": {
+      "count": 49,
+      "avg": 32898.02,
+      "median": 28876,
+      "p95": 60117.8
+    },
+    "llm_calls": {
+      "count": 49,
+      "avg": 3.24,
+      "median": 3,
+      "p95": 4.0
+    },
+    "tool_calls": {
+      "count": 49,
+      "avg": 1.88,
+      "median": 2,
+      "p95": 2.0
+    },
+    "estimated_cost_usd": {
+      "count": 49,
+      "avg": 0.02,
+      "median": 0.02,
+      "p95": 0.04
+    },
+    "diagnosis_skipped_rate": 0.6531,
+    "quality_success_rate": 0.9388,
+    "errors": 0,
+    "repairs": 0
+  },
+  "by_flow": {
+    "diagnosis_required": {
+      "tasks": 16,
+      "reported_tokens": {
+        "count": 16,
+        "avg": 10027.56,
+        "median": 9635.5,
+        "p95": 11754.25
+      },
+      "visible_tokens": {
+        "count": 16,
+        "avg": 7069.62,
+        "median": 7082.0,
+        "p95": 7542.0
+      },
+      "latency_ms": {
+        "count": 16,
+        "avg": 49050.94,
+        "median": 45051.5,
+        "p95": 68324.0
+      },
+      "llm_calls": {
+        "count": 16,
+        "avg": 4.0,
+        "median": 4.0,
+        "p95": 4.0
+      },
+      "tool_calls": {
+        "count": 16,
+        "avg": 2.0,
+        "median": 2.0,
+        "p95": 2.0
+      },
+      "estimated_cost_usd": {
+        "count": 16,
+        "avg": 0.03,
+        "median": 0.03,
+        "p95": 0.04
+      },
+      "diagnosis_skipped_rate": 0.0,
+      "quality_success_rate": 0.9375,
+      "errors": 0,
+      "repairs": 0
+    },
+    "help_request": {
+      "tasks": 7,
+      "reported_tokens": {
+        "count": 7,
+        "avg": 6853.86,
+        "median": 6413,
+        "p95": 8391.0
+      },
+      "visible_tokens": {
+        "count": 7,
+        "avg": 5275.71,
+        "median": 5090,
+        "p95": 6190.7
+      },
+      "latency_ms": {
+        "count": 7,
+        "avg": 28459.29,
+        "median": 24272,
+        "p95": 36839.2
+      },
+      "llm_calls": {
+        "count": 7,
+        "avg": 3.14,
+        "median": 3,
+        "p95": 3.7
+      },
+      "tool_calls": {
+        "count": 7,
+        "avg": 2.0,
+        "median": 2,
+        "p95": 2.0
+      },
+      "estimated_cost_usd": {
+        "count": 7,
+        "avg": 0.02,
+        "median": 0.02,
+        "p95": 0.03
+      },
+      "diagnosis_skipped_rate": 1.0,
+      "quality_success_rate": 1.0,
+      "errors": 0,
+      "repairs": 0
+    },
+    "independent_correct": {
+      "tasks": 1,
+      "reported_tokens": {
+        "count": 1,
+        "avg": 9148.0,
+        "median": 9148,
+        "p95": 9148
+      },
+      "visible_tokens": {
+        "count": 1,
+        "avg": 6892.0,
+        "median": 6892,
+        "p95": 6892
+      },
+      "latency_ms": {
+        "count": 1,
+        "avg": 37455.0,
+        "median": 37455,
+        "p95": 37455
+      },
+      "llm_calls": {
+        "count": 1,
+        "avg": 4.0,
+        "median": 4,
+        "p95": 4
+      },
+      "tool_calls": {
+        "count": 1,
+        "avg": 2.0,
+        "median": 2,
+        "p95": 2
+      },
+      "estimated_cost_usd": {
+        "count": 1,
+        "avg": 0.03,
+        "median": 0.03,
+        "p95": 0.03
+      },
+      "diagnosis_skipped_rate": 0.0,
+      "quality_success_rate": 1.0,
+      "errors": 0,
+      "repairs": 0
+    },
+    "learning_request": {
+      "tasks": 14,
+      "reported_tokens": {
+        "count": 14,
+        "avg": 6447.5,
+        "median": 6485.5,
+        "p95": 6756.8
+      },
+      "visible_tokens": {
+        "count": 14,
+        "avg": 5121.07,
+        "median": 5116.5,
+        "p95": 5271.35
+      },
+      "latency_ms": {
+        "count": 14,
+        "avg": 25689.29,
+        "median": 25458.5,
+        "p95": 30140.9
+      },
+      "llm_calls": {
+        "count": 14,
+        "avg": 3.0,
+        "median": 3.0,
+        "p95": 3.0
+      },
+      "tool_calls": {
+        "count": 14,
+        "avg": 2.0,
+        "median": 2.0,
+        "p95": 2.0
+      },
+      "estimated_cost_usd": {
+        "count": 14,
+        "avg": 0.02,
+        "median": 0.02,
+        "p95": 0.02
+      },
+      "diagnosis_skipped_rate": 1.0,
+      "quality_success_rate": 0.9286,
+      "errors": 0,
+      "repairs": 0
+    },
+    "objective_switch": {
+      "tasks": 3,
+      "reported_tokens": {
+        "count": 3,
+        "avg": 6267.67,
+        "median": 6319,
+        "p95": 6453.1
+      },
+      "visible_tokens": {
+        "count": 3,
+        "avg": 5107.0,
+        "median": 5118,
+        "p95": 5152.2
+      },
+      "latency_ms": {
+        "count": 3,
+        "avg": 21385.67,
+        "median": 22039,
+        "p95": 23517.7
+      },
+      "llm_calls": {
+        "count": 3,
+        "avg": 3.0,
+        "median": 3,
+        "p95": 3.0
+      },
+      "tool_calls": {
+        "count": 3,
+        "avg": 2.0,
+        "median": 2,
+        "p95": 2.0
+      },
+      "estimated_cost_usd": {
+        "count": 3,
+        "avg": 0.02,
+        "median": 0.02,
+        "p95": 0.02
+      },
+      "diagnosis_skipped_rate": 1.0,
+      "quality_success_rate": 1.0,
+      "errors": 0,
+      "repairs": 0
+    },
+    "other": {
+      "tasks": 5,
+      "reported_tokens": {
+        "count": 5,
+        "avg": 6660.2,
+        "median": 6667,
+        "p95": 6869.6
+      },
+      "visible_tokens": {
+        "count": 5,
+        "avg": 4985.2,
+        "median": 5052,
+        "p95": 5204.0
+      },
+      "latency_ms": {
+        "count": 5,
+        "avg": 27974.6,
+        "median": 28574,
+        "p95": 30670.4
+      },
+      "llm_calls": {
+        "count": 5,
+        "avg": 3.0,
+        "median": 3,
+        "p95": 3.0
+      },
+      "tool_calls": {
+        "count": 5,
+        "avg": 2.0,
+        "median": 2,
+        "p95": 2.0
+      },
+      "estimated_cost_usd": {
+        "count": 5,
+        "avg": 0.02,
+        "median": 0.02,
+        "p95": 0.02
+      },
+      "diagnosis_skipped_rate": 1.0,
+      "quality_success_rate": 0.8,
+      "errors": 0,
+      "repairs": 0
+    },
+    "resume_reassessment": {
+      "tasks": 3,
+      "reported_tokens": {
+        "count": 3,
+        "avg": 1774.67,
+        "median": 1660,
+        "p95": 1975.9
+      },
+      "visible_tokens": {
+        "count": 3,
+        "avg": 1259.67,
+        "median": 1264,
+        "p95": 1269.4
+      },
+      "latency_ms": {
+        "count": 3,
+        "avg": 8946.0,
+        "median": 7234,
+        "p95": 12383.8
+      },
+      "llm_calls": {
+        "count": 3,
+        "avg": 1.0,
+        "median": 1,
+        "p95": 1.0
+      },
+      "tool_calls": {
+        "count": 3,
+        "avg": 0.0,
+        "median": 0,
+        "p95": 0.0
+      },
+      "estimated_cost_usd": {
+        "count": 3,
+        "avg": 0.01,
+        "median": 0.0,
+        "p95": 0.01
+      },
+      "diagnosis_skipped_rate": 1.0,
+      "quality_success_rate": 1.0,
+      "errors": 0,
+      "repairs": 0
+    }
+  },
+  "legacy_or_baseline": {
+    "tasks": 4,
+    "reported_tokens": {
+      "count": 4,
+      "avg": 13771.25,
+      "median": 11612.5,
+      "p95": 20432.5
+    },
+    "visible_tokens": {
+      "count": 3,
+      "avg": 9095.0,
+      "median": 9710,
+      "p95": 10964.6
+    },
+    "latency_ms": {
+      "count": 4,
+      "avg": 66026.5,
+      "median": 53018.0,
+      "p95": 119613.55
+    },
+    "llm_calls": {
+      "count": 4,
+      "avg": 3.25,
+      "median": 3.0,
+      "p95": 4.7
+    },
+    "tool_calls": {
+      "count": 4,
+      "avg": 2.5,
+      "median": 2.5,
+      "p95": 3.0
+    },
+    "estimated_cost_usd": {
+      "count": 4,
+      "avg": 0.04,
+      "median": 0.03,
+      "p95": 0.07
+    },
+    "diagnosis_skipped_rate": 0.75,
+    "quality_success_rate": null,
+    "errors": 0,
+    "repairs": 1
+  },
+  "comparison_vs_baseline": {
+    "reported_tokens_avg_reduction_pct": 45.87,
+    "visible_tokens_avg_reduction_pct": 38.82,
+    "latency_avg_reduction_pct": 50.17,
+    "tool_calls_avg_reduction_pct": 24.8
+  },
+  "marked_valid": 49,
+  "marked_invalid": 0,
+  "invalid_excluded": 0,
+  "unmarked_optimized_excluded": 5,
+  "note": "El benchmark principal usa solo s3_evaluations con benchmark_status=valid. Las ejecuciones de desarrollo no marcadas o inválidas quedan fuera."
+}
