@@ -1,0 +1,1 @@
+{"case_id": "ICFES-V2-R07", "replacement_for": "ICFES-07", "error_type": "S2AgentError", "error": "Grok terminó sin tool call y sin respuesta final utilizable."}

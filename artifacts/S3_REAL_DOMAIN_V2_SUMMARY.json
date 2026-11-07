@@ -1,0 +1,86 @@
+{
+  "version": "S3_V2_REAL_DOMAIN_CLOSEOUT",
+  "domain_data": {
+    "source": "Icfes official released Saber 11 questions",
+    "target_scenarios": 30,
+    "initial_complete": 29,
+    "initial_quality_pass": 26,
+    "initial_input_invalid": [
+      "ICFES-07",
+      "ICFES-12",
+      "ICFES-13"
+    ],
+    "initial_technical_error": [
+      "ICFES-29"
+    ]
+  },
+  "remediation": {
+    "replacement_pass": [
+      "ICFES-V2-R12",
+      "ICFES-V2-R13"
+    ],
+    "replacement_technical_error": [
+      "ICFES-V2-R07"
+    ],
+    "controlled_retry_pass": [
+      "ICFES-29"
+    ],
+    "final_validated_pass_scenarios": 29,
+    "final_unresolved_technical_scenarios": 1,
+    "final_integral_success_rate": 0.9667
+  },
+  "gateway_cost": {
+    "initial_before": {
+      "requests": 254,
+      "input_tokens": 489013,
+      "output_tokens": 56032,
+      "cost_usd": 2.32
+    },
+    "initial_after": {
+      "requests": 406,
+      "input_tokens": 901051,
+      "output_tokens": 70780,
+      "cost_usd": 3.91
+    },
+    "initial_increment": {
+      "requests": 152,
+      "input_tokens": 412038,
+      "output_tokens": 14748,
+      "cost_usd": 1.59,
+      "cost_per_target_scenario_usd": 0.053
+    },
+    "remediation_before": {
+      "requests": 406,
+      "input_tokens": 901051,
+      "output_tokens": 70780,
+      "cost_usd": 3.91
+    },
+    "remediation_after": {
+      "requests": 423,
+      "input_tokens": 945539,
+      "output_tokens": 72378,
+      "cost_usd": 4.08
+    },
+    "remediation_increment": {
+      "requests": 17,
+      "input_tokens": 44488,
+      "output_tokens": 1598,
+      "cost_usd": 0.17,
+      "cost_per_attempt_usd": 0.0425,
+      "cost_per_completed_execution_usd": 0.056667
+    },
+    "full_s3_v2_spend": {
+      "requests": 169,
+      "input_tokens": 456526,
+      "output_tokens": 16346,
+      "cost_usd": 1.76,
+      "cost_per_final_target_scenario_usd": 0.058667
+    }
+  },
+  "notes": [
+    "Los tres fallos originales ICFES-07/12/13 se conservaron como fallos de preparación de entrada por pérdida de contexto del PDF.",
+    "ICFES-29 falló técnicamente en primera pasada y pasó en un único retry controlado.",
+    "ICFES-V2-R07 permanece como fallo técnico no resuelto de la remediación.",
+    "No se modificó NEXA para mejorar artificialmente el benchmark."
+  ]
+}

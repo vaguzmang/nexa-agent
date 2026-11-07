@@ -1,0 +1,47 @@
+{
+  "audit_id": "S3_ICFES_INPUT_QUALITY_AUDIT_V1",
+  "official_math_source": "https://www.icfes.gov.co/wp-content/uploads/2026/04/09-Marzo_Cuadernillo-de-Preguntas-Matematicas-Saber-11-2026.pdf",
+  "invalid_input_cases": [
+    {
+      "case_id": "ICFES-07",
+      "question": 19,
+      "reason": "La extracción de PDF pierde la fracción 3/2 de la opción B.",
+      "disposition": "exclude_from_agent_quality_keep_as_dataset_failure"
+    },
+    {
+      "case_id": "ICFES-12",
+      "question": 28,
+      "reason": "La extracción separa la fracción 3/5 del enunciado.",
+      "disposition": "exclude_from_agent_quality_keep_as_dataset_failure"
+    },
+    {
+      "case_id": "ICFES-13",
+      "question": 30,
+      "reason": "La pregunta depende de una tabla completa de cartas que no se conserva en la extracción textual.",
+      "disposition": "exclude_from_agent_quality_keep_as_dataset_failure"
+    }
+  ],
+  "replacement_questions": [
+    {
+      "replacement_for": "ICFES-07",
+      "case_id": "ICFES-V2-R07",
+      "question": 25,
+      "official_answer": "A",
+      "response_mode": "correct"
+    },
+    {
+      "replacement_for": "ICFES-12",
+      "case_id": "ICFES-V2-R12",
+      "question": 34,
+      "official_answer": "C",
+      "response_mode": "incorrect"
+    },
+    {
+      "replacement_for": "ICFES-13",
+      "case_id": "ICFES-V2-R13",
+      "question": 36,
+      "official_answer": "C",
+      "response_mode": "correct"
+    }
+  ]
+}
