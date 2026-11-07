@@ -1,0 +1,144 @@
+{
+  "dataset_id": "S3_REAL_DOMAIN_ICFES_V2",
+  "publisher": "Instituto Colombiano para la Evaluación de la Educación (Icfes)",
+  "purpose": "Benchmark real-domain S3 con preguntas oficiales liberadas de Saber 11.",
+  "usage_note": "El repositorio conserva referencias/metadatos; el texto se descarga localmente desde las fuentes oficiales.",
+  "sources": [
+    {
+      "subject": "Matemáticas",
+      "source_id": "ICFES_MAT_2026",
+      "title": "Saber 11° — Cuadernillo de preguntas — Prueba Matemáticas",
+      "url": "https://www.icfes.gov.co/wp-content/uploads/2026/04/09-Marzo_Cuadernillo-de-Preguntas-Matematicas-Saber-11-2026.pdf",
+      "selected_questions": [
+        {
+          "question": 1,
+          "official_answer": "B"
+        },
+        {
+          "question": 2,
+          "official_answer": "C"
+        },
+        {
+          "question": 3,
+          "official_answer": "B"
+        },
+        {
+          "question": 14,
+          "official_answer": "B"
+        },
+        {
+          "question": 16,
+          "official_answer": "D"
+        },
+        {
+          "question": 17,
+          "official_answer": "D"
+        },
+        {
+          "question": 19,
+          "official_answer": "B"
+        },
+        {
+          "question": 20,
+          "official_answer": "A"
+        },
+        {
+          "question": 21,
+          "official_answer": "A"
+        },
+        {
+          "question": 25,
+          "official_answer": "A"
+        },
+        {
+          "question": 27,
+          "official_answer": "A"
+        },
+        {
+          "question": 28,
+          "official_answer": "A"
+        },
+        {
+          "question": 30,
+          "official_answer": "B"
+        },
+        {
+          "question": 31,
+          "official_answer": "B"
+        },
+        {
+          "question": 32,
+          "official_answer": "B"
+        }
+      ]
+    },
+    {
+      "subject": "Ciencias Naturales",
+      "source_id": "ICFES_CN_2025",
+      "title": "Saber 11° — Cuadernillo de preguntas — Prueba Ciencias Naturales",
+      "url": "https://www.icfes.gov.co/wp-content/uploads/2025/12/22-diciembre-cuadernillo-de-preguntas-ciencias-naturales-saber-11-2025.pdf",
+      "selected_questions": [
+        {
+          "question": 2,
+          "official_answer": "C"
+        },
+        {
+          "question": 3,
+          "official_answer": "C"
+        },
+        {
+          "question": 4,
+          "official_answer": "B"
+        },
+        {
+          "question": 8,
+          "official_answer": "A"
+        },
+        {
+          "question": 9,
+          "official_answer": "D"
+        },
+        {
+          "question": 13,
+          "official_answer": "C"
+        },
+        {
+          "question": 15,
+          "official_answer": "B"
+        },
+        {
+          "question": 16,
+          "official_answer": "C"
+        },
+        {
+          "question": 17,
+          "official_answer": "D"
+        },
+        {
+          "question": 18,
+          "official_answer": "A"
+        },
+        {
+          "question": 19,
+          "official_answer": "A"
+        },
+        {
+          "question": 20,
+          "official_answer": "B"
+        },
+        {
+          "question": 22,
+          "official_answer": "C"
+        },
+        {
+          "question": 23,
+          "official_answer": "B"
+        },
+        {
+          "question": 28,
+          "official_answer": "A"
+        }
+      ]
+    }
+  ]
+}
