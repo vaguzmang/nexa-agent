@@ -1,0 +1,19 @@
+{
+  "run_id": "s2-e2e10-final",
+  "executed_at_utc": "2026-11-07T15:08:26.022574+00:00",
+  "database": "data\\s2-e2e10-final.db",
+  "target_e2e": 10,
+  "attempted_e2e": 10,
+  "completed_e2e": 10,
+  "persistence_verified_e2e": 10,
+  "failed_e2e": 0,
+  "total_llm_calls": 41,
+  "total_tool_calls": 30,
+  "average_tokens": 18410.9,
+  "average_latency_ms": 58644.3,
+  "requirements": {
+    "ten_e2e_attempted": true,
+    "ten_e2e_completed": true,
+    "ten_e2e_persisted": true
+  }
+}
