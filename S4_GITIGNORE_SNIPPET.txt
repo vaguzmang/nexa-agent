@@ -1,0 +1,6 @@
+# S4 local workload/load state
+data/S4_WORKLOAD*.jsonl
+data/s4_load.db*
+data/s4_test20.db*
+data/s4_test100.db*
+data/s4_test1h.db*

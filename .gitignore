@@ -14,3 +14,13 @@ data/*.db*
 # Local S2 validation scripts
 s2_failure_demo.py
 s2_tool_call_probe.py
+
+# S3 real-domain ICFES local material
+data/_icfes_cache/
+data/S3_REAL_DOMAIN_ICFES_V2.jsonl
+# S4 local workload/load state
+data/S4_WORKLOAD*.jsonl
+data/s4_load.db*
+data/s4_test20.db*
+data/s4_test100.db*
+data/s4_test1h.db*

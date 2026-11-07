@@ -1,0 +1,16 @@
+{
+  "before": {
+    "requests": 1373,
+    "cost_usd": 12.9,
+    "input_tokens": 3715066,
+    "output_tokens": 159605,
+    "recorded_at": "2026-11-06T21:36:41.978957+00:00"
+  },
+  "after": {
+    "requests": 6580,
+    "cost_usd": 60.96,
+    "input_tokens": 18733172,
+    "output_tokens": 650108,
+    "recorded_at": "2026-11-07T13:15:20.633057+00:00"
+  }
+}
