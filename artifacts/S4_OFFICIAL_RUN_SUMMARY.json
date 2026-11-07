@@ -1,0 +1,48 @@
+{
+  "run_id": "s4-official-20261106",
+  "status": "completed",
+  "started_at_utc": "2026-11-06T21:38:56.414302+00:00",
+  "finished_at_utc": "2026-11-07T09:55:53.952749+00:00",
+  "elapsed_hours": 12.283,
+  "workload_units": 1300,
+  "target_units": 1100,
+  "completed": 1256,
+  "dead_letter": 2,
+  "pending": 42,
+  "heartbeats": 736,
+  "max_heartbeat_gap_seconds": 60.25,
+  "units_with_retry": 20,
+  "avg_tokens": 14971.3,
+  "avg_latency_ms": 55314.81,
+  "avg_llm_calls": 4.05,
+  "checks": {
+    "completed_ge_1000": true,
+    "elapsed_ge_12h": true,
+    "heartbeat_gap_le_180s": true
+  },
+  "gateway_before": {
+    "requests": 1373,
+    "input_tokens": 3715066,
+    "output_tokens": 159605,
+    "cost_usd": 12.9
+  },
+  "gateway_after": {
+    "requests": 6580,
+    "input_tokens": 18733172,
+    "output_tokens": 650108,
+    "cost_usd": 60.96
+  },
+  "gateway_increment": {
+    "requests": 5207,
+    "input_tokens": 15018106,
+    "output_tokens": 490503,
+    "cost_usd": 48.06,
+    "cost_per_completed_unit_usd": 0.038264,
+    "requests_per_completed_unit": 4.1457
+  },
+  "derived": {
+    "target_achievement_pct": 114.18,
+    "completed_per_hour": 102.26,
+    "minutes_over_12h": 16.98
+  }
+}
